@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--nevoitet per ne web 150 caracter max-->
+    <meta name="description" content="ceci est ma super page web qui dechire sa maman - >> nje tekst i cili shfaqet kur e kerkon ne google">
+    <!--me lyp cka eshte se nuk e kom kuptu-->
+    <!--nuk perdoren noindex nofollow se bashku-->
+    <meta name="robots" content="noindex, follow">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <form method="get">-->
+        <!-- action utilise pour conect avec le php file-->
+        <form method="post" action="traitement.php">
+        <div>
+            <label for="nomeprenom">Nom / Prénom</label><small>*</small>
+            <input type="text" placeholder="Arlind Halimi" name="nomprenom" id="nomprenom" required autofocus>
+        </div>
+        <div>
+            <label for="checkbox">Je suis d'accord</label>
+            <input type="checkbox" name="checkbox" id="checkbox" disabled></div>
+        <div>
+            <label for="email">E-mail</label>
+            <input type="email" name="lemail" id="email"></div>
+        <div>
+            <label for="email">Téléphone</label>
+            <input type="tel" name="tel" id="tel"></div>
+        <div>
+            <label for="web">Site web</label>
+            <input type="url" name="web" id="web">Site web</div>
+        <div>
+            <label for="piece">Piéce jointe</label>
+            <input type="file" name="piece" id="fichier"></div>
+            
+        <div>
+            <label for="number">Nombre</label>
+            <input type="number" name="nombre" id="nombre"></div>
+        <div>
+            <label for="combien">Combien étes-vous dans votre famille</label>
+            <input type="radio" name="" id="combien1">1
+            <input type="radio" name="" id="combien2">2
+            <input type="radio" name="" id="combien3">3
+            <input type="radio" name="" id="combien4">4
+        </div>
+        <!-- <div>
+            <section >
+                <option value="chiffre1">1</option>
+                <option value="chiffre1">2</option>
+                <option value="chiffre1">3</option>
+                <option value="chiffre1">4</option>
+            </SEction>
+        </div>-->
+        <div>
+            Range <input type="range" name="" id="">
+        </div>
+            <input type="submit" name="" id="">
+            <input type="reset" value="reset">
+            <input type="submit" value="let's go !">
+    </form>
+
+
+
+</body>
+</html>
