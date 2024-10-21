@@ -1,0 +1,72 @@
+
+body{
+    margin: 0 auto;
+    padding: 0px;
+    background-color: rgb(240, 240, 240);
+    font-family: 'Myriad Pro', 'Poppins' , serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+    align-items: top;
+}
+/*Zone de gauche*/
+.gauche{
+    width: 48%;
+    display: inline-block;
+    align-items: top;
+    
+    
+}
+.gauche div small{
+    color: rgb(5, 156, 98);
+} 
+form div label{
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+#name-id, #email, #subject, #textArea{
+    width: 95%;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    border-radius: 5px;
+    resize: none; /*per mos me mujt me ndryshu textArea madhesin*/
+}
+#sub-b{
+    background-color: rgb(5, 156, 98);
+    color: white;
+    padding: 10px 50px 10px 50px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    
+}
+.droit{
+    width: 48%;
+    display: inline-block;
+}
+.droit h2{
+    text-transform: capitalize;
+    color: rgb(107, 107, 107);
+}
+.droit h3{
+    text-transform: capitalize;
+    color: rgb(107, 107, 107);
+    font-weight: 700;
+}
+
+.droit p, ul{
+    color: rgb(168, 168, 168);
+    list-style-type: none;
+    padding-left: 0px;
+}
+.email-green a{
+    text-decoration: none;
+    color: rgb(5, 156, 98);
+    
+}
+.marginTop{
+    margin-top: 20px;
+}
